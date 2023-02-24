@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" contet="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio website</title>
+    
+    <link rel="stylesheet" href="css.css">
+    
+    
+</head> 
+<body>
+   <div class="contenedor-header">
+          <header>
+            <div class="logo">
+                <a href="">Agustin Kukla</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()" >SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()" >PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+          </header>
+    </div>
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="image.png" alt="">
+            </div>
+            <h1>Agustin Kukla</h1>
+            <h2>Desarrollador web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-solid fa-at"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+   <section id="sobremi" class="sobremi">
+    <div class="cotenido-section">
+        <h2>Sobre Mi</h2>
+        <p><span>Hola, me llamo Agustin Kukla.</span> Soy una persona proactiva, organizada
+            y responsable, con buenas relaciones interpersonales.
+            Siempre tengo la mejor disposición para realizar mis
+            tareas.
+            Busco desarrollarme y formar parte de una empresa en
+            la que pueda poner en práctica todos mis conocimientos,
+            que me brinde la oportunidad de alcanzar todas mis
+            metas y que me ofrezca la oportunidad de crecer
+            profesionalmente. </p>
+        <div class="fila">
+            <div class="col">
+              <h3>Datos Personales</h3>
+              <ul>
+                <li>
+                    <strong>Cumpleaños</strong>
+                    29-01-1998
+                </li>
+                <li>
+                    <strong>Telefono</strong>
+                    11 2632-9807
+                </li>
+                <li>
+                    <strong>Email</strong>
+                    Ku.agustin@hotmail.com.ar
+                </li>
+                <li>
+                    <strong>ubicacion</strong>
+                    CABA, Argentina
+                </li>
+                <li>
+                    <strong>Github</strong>
+                    https://github.com/Agustinkukla?tab=repositories
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <span>Gym</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>Musica</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Estudiar</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Jugar</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-brands fa-readme"></i>
+                        <span>Leer</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-desktop"></i>
+                        <span>Usar la pc</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-user-group"></i>
+                        <span>Amigos</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-tv"></i>
+                        <span>Series</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <button>
+        Descargar CV <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+    </button>
+   </section> 
+   <section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>skills</h2>
+        <div class="fila">
+            <div class="col">
+                <h3>Technical Skills</h3>
+                <div class="skill">
+                    <span>javascript</span>
+                    <div class="barra-skill">
+                        <div class="progreso ">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Bootstrap</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>GIT</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Profesional Skills</h3>
+                <div class="skill">
+                    <span>Comunicaciones</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Gestión de proyectos</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educacion</h3>
+                <div class="item izq">
+                    <h4>Secundario</h4>
+                    <span class="casa">Instituto San roque</span>
+                    <span class="fecha">2011 - 2017 </span>
+                    <p>Estudie en el colegio Instituto San roque en la Ciudad Autonoma de Buenos Aires,de la rama comercial(contabilidad y computacion), egresandome en el 2017.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Contador Publico</h4>
+                    <span class="casa">Universidad de Buenos Aires</span>
+                    <span class="fecha">2019 - 2022 </span>
+                    <p>Ex estudiante de la carrera Contador publico de la uba, retirandome en el 2do año de la carrera</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Desarrollo web</h4>
+                    <span class="casa">Bootcamp</span>
+                    <span class="fecha">2022 - en curso</span>
+                    <p>Ganando experiencia en distintos bootcamp, Completando cursos de freecodecamp, Openbootcamp y coursera.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col derecha "> 
+                <h3>Experiencia de trabajo</h3>
+                <div class="item der">
+                    <h4>Cadete</h4>
+                    <span class="casa">Supermercado COTO</span>
+                    <span class="fecha">2019 - 2020</span>
+                    <p>tareas repositor delivery y atencion al cliente, duracion 6 meses por posibilidad de cambio laboral</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Cadete administrativo</h4>
+                    <span class="casa">Estudio juridico</span>
+                    <span class="fecha">2020 - 2022</span>
+                    <p>tareas Presentacion  de documentos a entidades publicas, administracion y recepcion de llamados, trabaje mas de 2 años en el estudio</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+   </section>
+   <section id="portafolio" class="portafolio">
+    <div class="contenido-seccion">
+        <h2>Portafolio</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="log in y sig up.png" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Log in y Sig up</p>
+                </div>
+            </div>
+        </div>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="imagecafe.png" alt="loggin.html">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Carta de Cafeteria</p>
+                </div>
+            </div>
+        </div>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="registro.png" alt="">
+                <div class="overlay">
+                    <h3>Trabajo de Bootcamp</h3>
+                    <p>Pagina de registro</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+            <div class="col">
+                <input type="text" placeholder="Tu Nombre">
+                <input type="text" placeholder="Numero de telefono">
+                <input type="text" placeholder="Correo">
+                <input type="text" placeholder="Tema">
+                <textarea name="" cols=30 rows=10 placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje<i class="fa-sharp fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <div class="col">
+                
+                <div class="">
+                    <ul>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-location-pin"></i>
+                            echeverria, villa urquiza 1213
+                        </li>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-mobile"></i>
+                               llamar: 2312-2212
+                           
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                           email:agustin@hotmail.com.ar
+                       
+                    </li>
+                    </ul>
+
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-solid fa-at"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+   </footer>
+   <script src="js.js"></script>
+</body> 
+</html>
